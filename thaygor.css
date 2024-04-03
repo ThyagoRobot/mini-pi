@@ -69,3 +69,14 @@ input{
     flex: 1 1 1 200px;
     margin: 30px;
 }
+
+#animation{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
