@@ -21,14 +21,19 @@ h1{
     text-align: center;
 }
 
-.header{
+.cabeçalho{
     background-color: black;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
 }
+
+
 
 input{
     display: flex ;
@@ -45,6 +50,7 @@ input{
     margin-left: 20px;
 }
 
+/* animação de seleção de itens*/
 .responsive{
     max-width: 100%;
     height: auto;
@@ -55,6 +61,8 @@ input{
 .responsive:hover{
     transform: scale(0.9);
 }
+/*aqui acaba a animção de itens*/
+
 
 .flex{
     display: flex;
@@ -63,6 +71,7 @@ input{
     max-width: 1400px ;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .flex > div{
@@ -80,3 +89,18 @@ h2{
     color: black;
     text-align: center;
 }
+
+/* animação de seleção de itens*/
+
+.responsive2{
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
+.responsive2:hover{
+    transform: scale(0.9);
+}
+
+/*aqui acaba a animção de itens*/
